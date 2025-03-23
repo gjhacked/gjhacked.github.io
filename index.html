@@ -145,13 +145,29 @@
         <div class="games" onclick="window.open('https://gjhacked.github.io/soccer-random', '_blank');">
             <img class="game-logo" src="assets/soccer-random-logo.png" />
             <h1 class="game-title">Soccer Random</h1>
-            <p class="game-text">Football is here in its most funny and random way. In the Soccer Random game, try to
+            <p class="game-text">Soccer is here in its most funny and random way. In the Soccer Random game, try to
                 score a goal by using only one key with different variations from each other! Sometimes you will play on
                 an ice field, or on a beach. The goal of the game is, to score five goals and win the game even if the
                 balls, players, or goalposts change! You can play the Soccer Random game either against the CPU or
                 against a friend in 2-player gaming mode! Let the soccer match begin!</p>
         </div>
     </div>
+
+    <div id="btn-container">
+        <button class="btn" onclick="showSettings()">
+            <img src="assets/settings-icon.png">
+        </button>
+        <form id="settings-form">
+            <h1>Settings</h1>
+            <label>Tab Title:</label>
+            <input id="tab-title" placeholder="Enter tab title">
+            <label>Favicon:</label>
+            <input id="favicon-url" placeholder="Enter favicon URL">
+            <input id="save-btn" type="submit" value="Save" onclick="saveSettings()">
+        </form>
+    </div>
+
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
