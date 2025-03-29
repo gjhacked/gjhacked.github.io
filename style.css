@@ -82,18 +82,12 @@ input {
 }
 
 #settings-form {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 75px;
-    margin-right: 5px;
     font-family: "Montserrat";
     background-color: white;
     border-radius: 25px;
     border: 1px solid rgb(180, 180, 180);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     padding: 32px;
-    padding-top: 10px;
     text-align: center;
     width: 300px;
 }
