@@ -1,41 +1,9 @@
-#validation {
-    transform: translateY(50%);
-    text-align: center;
-    border: 1px solid rgb(181, 181, 181);
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-    padding: 75px 50px;
-    width: 450px;
-    transition: 0.1s;
-    font-family: "Montserrat";
-    margin: auto;
-}
-
-#validation:hover {
-    border: 2px solid rgb(0, 127, 255);
-}
-
 input {
     font-family: "Montserrat";
     font-size: 20px;
     padding: 7px 12px;
     border-radius: 5px;
     border: 1px solid rgb(100, 100, 100);
-}
-
-#submit-button {
-    font-family: "Montserrat";
-    background-color: #007FFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 7px 14px;
-    font-size: 20px;
-}
-
-#submit-button:hover {
-    cursor: pointer;
-    background-color: #178bff;
 }
 
 #games-container {
